@@ -33,9 +33,37 @@ def expand_result(fields, values):
     field_values = [list(itertools.chain(*x)) for x in itertools.product(*_tmp_values)]
     return field_names, field_values
 
+def t1():
+    fields = {'1': ['name', 'age', 'hobby'], '2': ['weight', 'from']}
 
-fields = {'1': ['name', 'age', 'hobby'], '2': ['weight', 'from']}
+    values = {'1': [['kb', 'bk'], ['22'], ['sleep']], '2': [['144'], ['holololo']]}
 
-values = {'1': [['kb', 'bk'], ['22'], ['sleep']], '2': [['144'], ['holololo']]}
+    print expand_result(fields, values)
 
-print expand_result(fields, values)
+def t_zip():
+    a = [2, 4]
+    b = [1, 2, 9]
+    c = [(1, 7), (3, 4)]
+    print zip(a, b)
+    print zip(*c)    
+
+
+t_zip()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
