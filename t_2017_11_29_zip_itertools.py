@@ -46,7 +46,7 @@ def t_zip():
     c = [(1, 7), (3, 4)]
     print zip(a, b)
     print zip(*c)    
-
+    print zip(c)
 
 t_zip()
 
