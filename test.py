@@ -1,0 +1,1 @@
+print "rebalancing_id_repl_now_rebalancing_id".split('_repl_')
