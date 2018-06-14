@@ -1,1 +1,12 @@
-print "rebalancing_id_repl_now_rebalancing_id".split('_repl_')
+# coding: utf-8     
+
+
+
+
+
+array = [2, 9, 3, 4, 6, 11, 5, 2, 12]
+
+
+print array
+    
+    

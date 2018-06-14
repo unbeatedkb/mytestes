@@ -1,3 +1,3 @@
-import test
-
-c = test.getints('b')
+with open('asdasd', 'r') as f:
+    u = f.read()
+    
